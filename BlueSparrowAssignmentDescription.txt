@@ -1,0 +1,27 @@
+The Blue Sparrow, an undercover foreign spy, is worried that she may be found out while visiting the District of Columbia. She must plan several escape routes just in case some of the routes are unavailable when she must make her escape. In addition, she must pick up her fake passports and cash before leaving the city. Fortunately, she has stashed them in a couple of locations called cache’s just in case one of the locations is compromised or unreachable. Her last mission takes place during a party held at the Russian embassy, but she fears that it is during that event that she may run into trouble and need to escape quite quickly.
+Your task is to show Blue Sparrow the shortest routes available from the Russian Embassy, through the two secret caches to the airport to catch a flight out of Washington D.C., or to the train station. Your output should print 4 routes and the total time to each destination:
+1) The route from the Russian embassy to cache 1 to the train station
+2) The route from the Russian embassy to cache 1 to the airport
+3) The route from the Russian embassy to cache 2 to the train station
+4) The route from the Russian embassy to cache 2 to the airport
+For example (not reflecting the provided graph):
+
+
+Route from Russian embassy to Cache 1 and airport
+Russian Embassy -> Lincoln Monument -> Cache 1 -> National Airport: 30 minutes
+Route to Cache 2 and train station.
+Russian Embassy -> Washington Monument -> Arboretum -> Cache 2 -> train station: 35 minutes
+Etc..
+
+Grading Criteria:
+Use the Dijkstra’s algorithm to find the shortest path algorithm to each location from a designated position, i.e., embassy to cache, then cache to transportation.  You may NOT use existing Python graph libraries. 
+
+Use Python classes and appropriate methods in the design of your solution. The solution should be generalized to work with graphs containing vertices and edges.
+
+In your README.txt file explain exactly how to run your program.  (I will copy and paste your command line) Provide a file representation of the graph, include your file as a command line argument. 
+
+Documented code and coding style in accordance with PEP8
+
+Error handling for incorrect input, including input from your file.
+
+Submission: Turn in your source code. Make sure you use appropriate error handling throughout your program.
